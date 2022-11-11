@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Clone Login Page Netflix" />
+    <meta name="author" content="João Marcos" />
+    <title>Netflix</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <link
+      rel="shortcut icon"
+      href="img/Netflix-logo-on-transparent-background-PNG.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" media="(max-width: 600px)" href="src/mobile.css" />
+    <link
+      rel="stylesheet"
+      media="(min-width: 600px) and (max-width: 800px)"
+      href="src/tablet.css"
+    />
+    <link rel="stylesheet" media="(min-width:800px)" href="src/style.css" />
+  </head>
+  <body>
+    <div id="blur">
+      <header id="cabecario">
+        <img id="logo" src="img/logo_netflix.png" alt="" />
+      </header>
+
+      <main>
+        <section id="conteudo">
+          <form action="formulario" id="formulario">
+            <fieldset>
+              <legend class="entrar">Entrar</legend>
+              <h1>Entrar</h1>
+              <div>
+                <input
+                  type="email"
+                  type="number"
+                  placeholder="Email ou número de telefone"
+                  name="email ou numero"
+                  class="input"
+                />
+              </div>
+              <div>
+                <input
+                  type="password"
+                  name="senha"
+                  class="input"
+                  placeholder="Senha"
+                />
+              </div>
+              <div id="link_original">
+                <a href="https://www.netflix.com/br/" target="_blank"
+                  ><button type="button" class="bnt_entrar">Entrar</button></a
+                >
+              </div>
+              <div class="lembrar_e_ajuda">
+                <div>
+                  <input
+                    type="checkbox"
+                    name="Lembre-se de mim"
+                    class="lembre_se_de_mim"
+                  />
+                </div>
+                <div>
+                  <label class="label_lembre-se" for="Lembre-se de mim"
+                    >Lembre-se de mim</label
+                  >
+                </div>
+                <a href="#" class="link_precisa_de_ajuda">Precisa de ajuda ?</a>
+              </div>
+              <div class="novo">
+                <section class="baguidodemonio">
+                  <div>
+                    <h2>Novo por aqui ?</h2>
+                  </div>
+                  <div>
+                    <a href="#" class="assine_agora">Assine agora</a>
+                  </div>
+                </section>
+                <section class="baguidodemonio2">
+                  <div>
+                    <p class="texto_protecao">
+                      Esta página é protegida pelo Google reCAPTCHA para
+                      garantir que você não é um robô.<a
+                        href="#"
+                        class="link_saibamais"
+                        >Saiba mais</a
+                      >
+                    </p>
+                  </div>
+                </section>
+              </div>
+            </fieldset>
+          </form>
+        </section>
+      </main>
+
+      <footer id="rodape">
+        <p id="contato">Dúvidas? Ligue 0800 591 8942</p>
+        <p>
+          <span>Perguntas frequentes</span>
+          <span> Central de Ajuda</span>
+          <span>Termos de Uso Privacidade</span>
+        </p>
+        <p>
+          <span>Preferências de cookies</span>
+          <span> Informações corporativas </span>
+        </p>
+        <div id="caixa_de_idiomas">
+          <select name="idiomas" id="idiomas">
+            <option value="POR">Português</option>
+          </select>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

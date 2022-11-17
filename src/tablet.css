@@ -72,6 +72,10 @@ main {
   font-size: 1em;
 }
 
+#link_original a {
+  text-decoration: none;
+}
+
 .bnt_entrar {
   display: block;
   margin-left: auto;

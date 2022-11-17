@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#cabecario {
+  width: 100%;
+}
+
+#cabecario #logo {
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+}
+
+#blur {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 2rem;
+}
+
+body {
+  background-image: url(../img/fundo_netflix.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  font-family: "Open Sans", sans-serif;
+}
+
+:root {
+  --mainRed: #e50914;
+  --letter-Color: #737373;
+}
+
+main {
+  margin-bottom: 80px;
+  margin-top: 10px;
+}
+#conteudo {
+  background-color: rgba(0, 0, 0, 0.733);
+  width: 350px;
+  height: 600px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+#formulario fieldset {
+  border: 0px;
+  width: 350px;
+  height: 250px;
+}
+
+#formulario legend {
+  display: none;
+}
+
+#conteudo h1 {
+  display: block;
+  margin: 10px 20px;
+  font-size: 1.5em;
+}
+
+.input {
+  display: block;
+  margin: 0 auto;
+  width: 280px;
+  height: 50px;
+  margin-bottom: 20px;
+  background-color: rgb(67, 67, 67);
+  border: 0px;
+  padding: 20px;
+  border-radius: 3px;
+  font-size: 1em;
+}
+
+.bnt_entrar {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 50px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  background-color: var(--mainRed);
+  color: rgb(255, 255, 255);
+  border: 0px;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: large;
+}
+
+.lembrar_e_ajuda div {
+  display: inline;
+}
+
+.lembre_se_de_mim {
+  margin-left: 20px;
+  width: 20px;
+}
+
+.label_lembre-se {
+  color: rgb(100, 100, 100);
+}
+
+.link_precisa_de_ajuda {
+  text-decoration: none;
+  margin-left: 50px;
+  font-size: small;
+  color: rgb(100, 100, 100);
+}
+
+.label_lembre-se {
+  font-size: small;
+}
+
+.novo h2 {
+  display: block;
+  color: rgb(100, 100, 100);
+  font-size: small;
+  margin-left: 50px;
+}
+.assine_agora {
+  text-decoration: none;
+  color: white;
+  display: block;
+  font-size: small;
+  margin-left: 0px;
+}
+
+.new-here {
+  margin-left: 30px;
+  margin-top: 45px;
+}
+
+.new-here div {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.texto_protecao {
+  display: block;
+  font-size: small;
+  width: 200px;
+  margin-left: 50px;
+  color: rgb(100, 100, 100);
+  font-size: 0.8em;
+}
+
+.link_saibamais {
+  font-size: 0.8em;
+  text-decoration: none;
+  color: rgb(26, 120, 235);
+}
+
+.protected {
+  margin-left: 30px;
+}
+
+.protected p {
+  margin-top: 20px;
+  border-spacing: 0px;
+  display: inline-block;
+}
+
+#rodape {
+  background-color: rgba(0, 0, 0, 0.733);
+  height: 40vh;
+  padding: 2rem 2rem;
+  align-items: flex-start;
+  justify-content: left;
+  font-size: 0.9em;
+  color: #737373;
+}
+
+#contato {
+  margin-bottom: 1.5rem;
+  font-size: 1.1em;
+}
+
+#about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#about div {
+  display: flex;
+  flex-direction: column;
+}
+
+#about div span {
+  margin-bottom: 1rem;
+}
+
+#caixa_de_idiomas {
+  position: relative;
+}
+
+#caixa_de_idiomas select {
+  width: 150px;
+  height: 48px;
+  text-align: right;
+}
+
+#globe-icon {
+  width: 25px;
+  position: absolute;
+  top: 0.8em;
+  left: 1em;
+}

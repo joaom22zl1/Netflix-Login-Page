@@ -33,7 +33,7 @@
             <fieldset>
               <legend class="entrar">Entrar</legend>
               <h1>Entrar</h1>
-              <div>
+              <div class="inputs-text">
                 <input
                   type="email"
                   type="number"
@@ -61,6 +61,7 @@
                     type="checkbox"
                     name="Lembre-se de mim"
                     class="lembre_se_de_mim"
+                    checked
                   />
                 </div>
                 <div>
@@ -71,7 +72,7 @@
                 <a href="#" class="link_precisa_de_ajuda">Precisa de ajuda ?</a>
               </div>
               <div class="novo">
-                <section class="baguidodemonio">
+                <section class="new-here">
                   <div>
                     <h2>Novo por aqui ?</h2>
                   </div>
@@ -79,7 +80,7 @@
                     <a href="#" class="assine_agora">Assine agora</a>
                   </div>
                 </section>
-                <section class="baguidodemonio2">
+                <section class="protected">
                   <div>
                     <p class="texto_protecao">
                       Esta página é protegida pelo Google reCAPTCHA para
@@ -99,18 +100,26 @@
 
       <footer id="rodape">
         <p id="contato">Dúvidas? Ligue 0800 591 8942</p>
-        <p>
-          <span>Perguntas frequentes</span>
-          <span> Central de Ajuda</span>
-          <span>Termos de Uso Privacidade</span>
-        </p>
-        <p>
-          <span>Preferências de cookies</span>
-          <span> Informações corporativas </span>
-        </p>
+        <div id="about">
+          <div>
+            <span>Perguntas frequentes</span>
+            <span>Preferências de cookies</span>
+          </div>
+          <div>
+            <span>Central de Ajuda</span>
+            <span> Informações corporativas </span>
+          </div>
+          <div>
+            <span>Termos de Uso</span>
+          </div>
+          <div>
+            <span>Privacidade</span>
+          </div>
+        </div>
         <div id="caixa_de_idiomas">
+          <img src="public/globe-icon.svg" alt="" id="globe-icon" />
           <select name="idiomas" id="idiomas">
-            <option value="POR">Português</option>
+            <option value="pt-BR">Português</option>
           </select>
         </div>
       </footer>

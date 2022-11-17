@@ -2,6 +2,7 @@
 
 <h1 align="center">Netflix 🎥</h1>
 
+<img src="./img/README-page-mobile.png">
 <p align="center">
  <a href="#sobre">Sobre</a> •
  <a href="#tecnologias">Tecnologias</a> • 
